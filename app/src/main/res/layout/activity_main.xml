@@ -10,6 +10,8 @@
         android:id="@+id/btn"
         android:layout_width="199dp"
         android:layout_height="124dp"
+        android:longClickable="true"
+        android:onClick="longclick"
         android:text="Long Press Button"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
